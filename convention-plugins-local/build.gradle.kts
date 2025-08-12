@@ -16,7 +16,7 @@ gradlePlugin {
     plugins {
         register("app-version") {
             id = "app-version"
-            implementationClass = "ru.tsum.tools.conventionplugins.local.ApplicationVersionPlugin"
+            implementationClass = "com.spelliar.tools.conventionplugins.local.ApplicationVersionPlugin"
         }
     }
 }

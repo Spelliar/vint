@@ -27,10 +27,10 @@ dependencyResolutionManagement {
             from(files("uikit.versions.toml"))
         }
         create("core") {
-            from("ru.tsum.kmp.core:version-catalog:1.0.3")
+            from("com.spelliar.kmp.core:version-catalog:1.0.3")
         }
         create("libs") {
-            from("ru.tsum.tools.conventionplugins:version-catalog:2.0.2")
+            from("com.spelliar.tools.conventionplugins:version-catalog:2.0.2")
         }
     }
     repositories {
@@ -43,7 +43,7 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "AndroidTsumDesign"
+rootProject.name = "vint"
 
 include(":app")
 include(":models")

@@ -1,7 +1,7 @@
-import ru.tsum.tools.conventionplugins.project.extentions.androidMainDependencies
-import ru.tsum.tools.conventionplugins.project.extentions.commonMainDependencies
-import ru.tsum.tools.conventionplugins.project.extentions.commonTestDependencies
-import ru.tsum.tools.conventionplugins.project.extentions.iosMainDependencies
+import com.spelliar.tools.conventionplugins.project.extentions.androidMainDependencies
+import com.spelliar.tools.conventionplugins.project.extentions.commonMainDependencies
+import com.spelliar.tools.conventionplugins.project.extentions.commonTestDependencies
+import com.spelliar.tools.conventionplugins.project.extentions.iosMainDependencies
 
 plugins {
     id(libs.plugins.tsum.kmp.app.get().pluginId)
@@ -11,10 +11,10 @@ plugins {
 }
 
 android {
-    namespace = "ru.tsum.design"
+    namespace = "com.spelliar.design"
 
     defaultConfig {
-        applicationId = "ru.tsum.design"
+        applicationId = "com.spelliar.design"
     }
 
     buildTypes {
