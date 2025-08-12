@@ -5,7 +5,7 @@ rootProject.name = "local"
 dependencyResolutionManagement {
     versionCatalogs {
         create("libs") {
-            from("ru.tsum.tools.conventionplugins:version-catalog:2.0.1")
+            from("com.spelliar.tools.conventionplugins:version-catalog:2.0.1")
         }
     }
     repositories {

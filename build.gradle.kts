@@ -1,4 +1,4 @@
-import ru.tsum.tools.conventionplugins.extensions.libs
+import com.spelliar.tools.conventionplugins.extensions.libs
 
 // Top-level build file where you can add configuration options common to all sub-projects/modules.
 plugins {
