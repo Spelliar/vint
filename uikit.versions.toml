@@ -1,0 +1,5 @@
+[versions]
+navigation-compose = "2.9.0-beta03"
+
+[libraries]
+navigation-compose = { module = "org.jetbrains.androidx.navigation:navigation-compose", version.ref = "navigation-compose" }
